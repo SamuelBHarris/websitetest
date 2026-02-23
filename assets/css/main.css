@@ -1351,7 +1351,7 @@ input, select, textarea {
 				max-height: 40rem;
 				overflow: hidden;
 				
-				background: rgba(0, 0, 0, 0.65);
+				background: rgba(27, 31, 34, 0.85);
     			padding: 2.5rem;
     			border-radius: 6px;
 			}
@@ -1691,6 +1691,7 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
 
 
 
