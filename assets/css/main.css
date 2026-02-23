@@ -1644,6 +1644,7 @@ input, select, textarea {
 		}
 
 /* Disable background animation on mobile */
+
 @media screen and (max-width: 736px) {
 
     #bg {
@@ -1653,15 +1654,26 @@ input, select, textarea {
         transition: none !important;
         height: 100% !important;
         min-height: 100vh;
+
+    body.is-preload #header {
+        filter: none !important;
     }
 
-    #bg:before,
-    #bg:after {
-        display: none !important;
+    body.is-preload #header > * {
+        opacity: 1 !important;
+    }
+
+    body.is-preload #header .content .inner {
+        max-height: none !important;
+        padding: 2.5rem 1rem !important;
+        opacity: 1 !important;
+    }
+
+    body.is-preload #footer {
+        opacity: 1 !important;
     }
 
 }
-
 
 
 
