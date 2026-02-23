@@ -1398,6 +1398,7 @@ input, select, textarea {
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
 					border-bottom: 0;
+					background: rgba(19, 21, 25,0.75);
 				}
 
 					#header nav ul li a:hover {
@@ -1691,6 +1692,7 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
 
 
 
