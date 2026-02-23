@@ -1643,9 +1643,9 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-/* Disable background animation on mobile */
 
-@media screen and (max-width: 736px) {
+
+/*@media screen and (max-width: 736px) {
 
     #bg {
         opacity: 1 !important;
@@ -1675,6 +1675,7 @@ input, select, textarea {
 
 }
 
+*/
 
 
 
