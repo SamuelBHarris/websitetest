@@ -1120,11 +1120,11 @@ input, select, textarea {
 		/*z-index: 0;*/
 		opacity: 0;
     	transition: opacity 0.8s ease-in-out;
-	
+	}
 	body:not(.is-preload) #bg {
     opacity: 1;
 	}
-	}
+	
 
 		#bg:before, #bg:after {
 			content: '';
@@ -1698,6 +1698,7 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
 
 
 
