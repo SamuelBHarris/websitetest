@@ -1145,9 +1145,9 @@ input, select, textarea {
 		        linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)),
 		        url("images/bg.jpeg");
 		
-		    background-size: cover;
+		    background-size: cover !important;
 		    background-position: center;
-		    background-repeat: no-repeat;
+		    background-repeat: no-repeat !important;
 		
 		    z-index: 2;
 		}
@@ -1687,6 +1687,7 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
 
 
 
