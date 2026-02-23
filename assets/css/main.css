@@ -1137,7 +1137,7 @@ input, select, textarea {
 		}
 
 		#bg:before {
-    		content: '';
+    		/*content: '';
     		position: absolute;
 		    top: 0;
 		    left: 0;
@@ -1156,8 +1156,8 @@ input, select, textarea {
 		    background-repeat: no-repeat !important;
 		
 		    z-index: 0;
-		}
-			/* -moz-transition: background-color 2.5s ease-in-out;
+		}*/
+			-moz-transition: background-color 2.5s ease-in-out;
 			-webkit-transition: background-color 2.5s ease-in-out;
 			-ms-transition: background-color 2.5s ease-in-out;
 			transition: background-color 2.5s ease-in-out;
@@ -1170,7 +1170,7 @@ input, select, textarea {
    			background-position: center, center;
     		background-repeat: no-repeat, repeat;
 			
-			z-index: 2;
+			z-index: 0;
 		} */
 
 		#bg:after {
@@ -1698,6 +1698,7 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
 
 
 
