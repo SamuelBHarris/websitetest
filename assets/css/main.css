@@ -1309,8 +1309,8 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			width: 9rem;
-			height: 9rem; 
+			width: 10rem;
+			height: 10rem; 
 			overflow: hidden;
 			display: flex;
 			align-items: center;
@@ -1474,8 +1474,8 @@ input, select, textarea {
 				}
 
 			#header .logo {
-				width: 4.75rem;
-				height: 4.75rem;
+				width: 7.75rem;
+				height: 7.75rem;
 				line-height: 4.75rem;
 			}
 
@@ -1692,6 +1692,7 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
 
 
 
