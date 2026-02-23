@@ -1121,9 +1121,9 @@ input, select, textarea {
 		opacity: 0;
     	transition: opacity 0.8s ease-in-out;
 	
-	/*body:not(.is-preload) #bg {
+	body:not(.is-preload) #bg {
     opacity: 1;
-	}*/
+	}
 	}
 
 		#bg:before, #bg:after {
@@ -1698,6 +1698,7 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
 
 
 
