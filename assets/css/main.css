@@ -1165,10 +1165,10 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-    		background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("images/bg.jpeg");
-    		background-size: auto, 256px 256px;
-   			background-position: center, center;
-    		background-repeat: no-repeat;
+    		background-image: url("images/bg.jpeg");
+    		background-size: cover !important;
+   			background-position: center;
+    		background-repeat: no-repeat !important;
 			
 			z-index: 0;
 		} */
@@ -1698,6 +1698,7 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
 
 
 
