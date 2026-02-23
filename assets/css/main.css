@@ -1201,7 +1201,7 @@ input, select, textarea {
 		}
 
 		body.is-preload #bg:before {
-			background-color: #000000;
+			background-color: transparent;
 		}
 
 /* Wrapper */
@@ -1698,6 +1698,7 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
 
 
 
