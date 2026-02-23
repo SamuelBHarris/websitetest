@@ -1139,7 +1139,7 @@ input, select, textarea {
 		}
 
 		#bg:before {
-    		/*content: '';
+    		content: '';
     		position: absolute;
 		    top: 0;
 		    left: 0;
@@ -1158,8 +1158,8 @@ input, select, textarea {
 		    background-repeat: no-repeat !important;
 		
 		    z-index: 0;
-		} */
-			-moz-transition: background-color 2.5s ease-in-out;
+		} 
+		/*	-moz-transition: background-color 2.5s ease-in-out;
 			-webkit-transition: background-color 2.5s ease-in-out;
 			-ms-transition: background-color 2.5s ease-in-out;
 			transition: background-color 2.5s ease-in-out;
@@ -1174,7 +1174,7 @@ input, select, textarea {
 			
 			z-index: 0;
 		}
-
+		*/
 		#bg:after {
 			-moz-transform: scale(1.125);
 			-webkit-transform: scale(1.125);
@@ -1720,6 +1720,7 @@ input, select, textarea {
     }
 
 }
+
 
 
 
