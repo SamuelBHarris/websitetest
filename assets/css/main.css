@@ -1117,7 +1117,7 @@ input, select, textarea {
 	        rgba(19, 21, 25, 0.6),
 	        rgba(19, 21, 25, 0.6)
 	    ),
-	    url("images/B4FD28A5-9C8B-49D0-98C7-0F69333B38F5_1_105_c.jpeg") center / cover no-repeat;
+	    url("../images/B4FD28A5-9C8B-49D0-98C7-0F69333B38F5_1_105_c.jpeg") center / cover no-repeat;
 	
 	    opacity: 1;
 	}
